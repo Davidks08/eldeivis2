@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Deportivo - Noticias y Resultados</title>
+    <!-- Enlace a tu archivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <body background="fondo.jpg"></body>
+    <font color="white">
+    <!-- Encabezado del sitio -->
+    <header>
+        <div class="logo">
+            <h1>Deportes<span>Central</span></h1>
+        </div>
+        <!-- Menú de navegación principal -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="not.html">Noticia principal</a></li>
+                <li><a href="baloncesto.html">Baloncesto</a></li>
+                <li><a href="tenis.html">Tenis</a></li>
+                <li><a href="motor.html">Fórmula 1</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+
+        <!-- Sección de Noticia Destacada / Banner -->
+        <section class="destacado">
+            <article>
+                <img src="noticia.jpg" alt="Imagen de la noticia destacada">
+                <h2>¡Gran final del campeonato mundial este fin de semana!</h2>
+                <p>Descubre todos los detalles, horarios y análisis previos al gran encuentro del año.</p>
+                <a href="#">Leer noticia completa</a>
+            </article>
+        </section>
+
+        <!-- Sección de Noticias Recientes (Grid de noticias) -->
+        <section class="ultimas-noticias">
+            <h2>Últimas Noticias</h2>
+            
+            <div class="contenedor-noticias">
+                <!-- Noticia 1 -->
+                <article class="tarjeta-noticia">
+                    <span class="categoria">Fútbol</span>
+                    <img src="futbol.jpg" alt="Jugador de fútbol">
+                    <h3>Resultados de la jornada en la liga local</h3>
+                    <p>Resumen detallado de todos los partidos disputados ayer.</p>
+                    <a href="#">Leer más</a>
+                </article>
+
+                <!-- Noticia 2 -->
+                <article class="tarjeta-noticia">
+                    <span class="categoria">Baloncesto</span>
+                    <img src="baloncesto.jpg" alt="Partido de baloncesto">
+                    <h3>Los mejores momentos de los Playoffs</h3>
+                    <p>Mira las jugadas más espectaculares de la noche.</p>
+                    <a href="#">Leer más</a>
+                </article>
+
+                <!-- Noticia 3 -->
+                <article class="tarjeta-noticia">
+                    <span class="categoria">Tenis</span>
+                    <img src="tenis.jpg" alt="Tenista en cancha">
+                    <h3>Nuevo récord en el torneo de Grand Slam</h3>
+                    <p>Un partido histórico que duró más de cuatro horas.</p>
+                    <a href="#">Leer más</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Barra lateral (Sidebar) para marcador o tabla de posiciones -->
+        <aside class="barra-lateral">
+            <section class="marcadores">
+                <h3>Resultados en Vivo</h3>
+                <ul>
+                    <li><strong>Equipo A</strong> 2 - 1 <strong>Equipo B</strong> (Final)</li>
+                    <li><strong>Equipo C</strong> 0 - 0 <strong>Equipo D</strong> (En vivo - Min 65')</li>
+                </ul>
+            </section>
+
+            <section class="proximos-eventos">
+                <h3>Próximos Eventos</h3>
+                <ul>
+                    <li>Mundial de F1 - Domingo 15:00</li>
+                    <li>Final Tenis - Sábado 18:00</li>
+                </ul>
+            </section>
+        </aside>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="info-footer">
+            <p>&copy; 2026 DeportesCentral. Todos los derechos reservados.</p>
+            <nav class="redes-sociales">
+                <a href="#">Twitter/X</a> | 
+                <a href="#">Instagram</a> | 
+                <a href="#">YouTube</a>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+</html>
